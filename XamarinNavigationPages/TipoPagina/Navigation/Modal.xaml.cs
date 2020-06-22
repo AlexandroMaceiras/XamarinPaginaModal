@@ -19,7 +19,7 @@ namespace XamarinNavigationPages.TipoPagina.Navigation
 
         private void FecharModal(object o, EventArgs e)
         {
-            Navigation.PopModalAsync();
+            Navigation.PopModalAsync(); //Este FecharModal é necessário senão vc fica travado no Modal ou então chama um outro Modal ou outro carousel através de outro evento.
         }
     }
 }
